@@ -9,25 +9,26 @@
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",
-    "@oclif/plugin-help": "^2.2.3"
+    "@oclif/plugin-help": "^2.2.3",
+    "got": "^10.1.0"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2"
-  },
-  "engines": {
-    "node": ">=8.0.0"
   },
   "pkg": {
     "targets": [
       "node12-macos-x64"
     ]
   },
+  "files": [
+    "/bin"
+  ],
   "homepage": "https://github.com/dan1elhughes/telethings",
   "license": "MIT",
   "main": "src/index.js",
   "repository": "dan1elhughes/telethings",
   "scripts": {
-    "build": "pkg .",
+    "build": "pkg . --out-path dist",
     "test": "echo NO TESTS"
   }
 }
