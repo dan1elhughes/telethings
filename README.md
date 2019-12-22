@@ -2,6 +2,8 @@
 
 [Telegraf](https://github.com/influxdata/telegraf) input plugin to read data from a [Webthings IOT gateway](https://iot.mozilla.org/gateway).
 
+![](.media/grafana.png)
+
 ## Getting started
 
 ### Create an authorization token on your Gateway
